@@ -1,0 +1,166 @@
+
+body {
+ /* height: 100vh; */
+  margin: 0;
+ /* overflow: hidden;*/
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+padding: 16px;
+Margin-bottom: 16px;
+}
+.button4 {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+padding: 16px;
+Margin-bottom: 16px;
+}
+
+
+.header{
+  font-size: 18px;
+color: #E5E7EB;
+background-color: #1f2937;
+display: flex;
+justify-content: space-between;
+padding: 24px;
+
+}
+
+.header0 {
+font-size: 24px;
+color: #F9FAF8;
+margin-left: 36px;
+
+
+
+
+}
+.left-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-left: 36px;
+}
+  a:link {
+    color: lightblue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: lightpink;
+  }
+
+  
+.footer {
+display: flex;
+justify-content: center;
+padding: 16px;
+
+background-color: #1f2937;
+/*margin-top: 50px;*/
+}
+
+.section1 {
+  /*
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;*/
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+justify-content: space-evenly;
+padding: 36px;
+
+}
+.section1left {
+  margin: 36px;
+  width: 250px;
+  gap: 36px;
+}
+  .text1{
+    color: gray;
+  }
+
+
+
+.header1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.section2 {
+  justify-content: center;
+  padding: 36px;
+
+ /* flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+    gap: 16px;*/
+  }
+
+  .header2 {
+    font-size: 36px;
+  color: #1f2937;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+    }
+    .images {
+      flex: 0;
+      display: flex;
+     flex-direction: row;
+
+     align-items: center;
+     
+     
+     
+   }
+   .textu {
+    width: 100 px;
+
+   }
+   
+.section3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      gap: 16px;
+      padding: 36px;
+
+    background-color: gray;
+    }
+
+    .container {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 36px;
+
+        gap: 16px;
+        background-color: #3882f6;
+
+      }
+
+
+
+
